@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.textfirst{
+    font-size: 3rem;
+}
+.textsecond{
+    font-size: 1em;
+}
+
+
+@media screen and (max-width: 600px){
+    .main{
+        flex-direction: column-reverse;
+    }
+    .sideone{
+        position: relative;
+        top: 10%;
+    }
+    .sidetwo img{
+        position: relative;
+        top: 5%;
+        width: 180px;
+    }
+    .textfirst{
+        font-size: 1.6rem;
+    }
+    .textsecond{
+        font-size: 0.8em;
+    }
+}
